@@ -1,0 +1,243 @@
+[ERROR] 2025-08-18 09:24:02 - MadTrainerDB - Ошибка загрузки конфигурации: Конфигурационный файл не найден: /app/config/mad-trainer-config.yaml
+[INFO] 2025-08-18 09:24:34 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 09:24:34 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 09:24:34 - MadTrainerDB - Ошибка инициализации БД: column "interpolation" of relation "metrics" does not exist
+LINE 2: ...                INSERT INTO metrics (name, query, interpolat...
+                                                             ^
+
+[INFO] 2025-08-18 09:24:34 - MadTrainerDB - Соединение с БД закрыто
+[ERROR] 2025-08-18 09:53:28 - MadTrainerDB - Ошибка загрузки конфигурации: Конфигурационный файл не найден: /app/config/mad-trainer-config.yaml
+[ERROR] 2025-08-18 09:54:07 - MadTrainerDB - Ошибка загрузки конфигурации: Конфигурационный файл не найден: /app/config/mad-trainer-config.yaml
+[WARNING] 2025-08-18 09:55:04 - Конфигурация не содержит метрик
+[WARNING] 2025-08-18 09:55:04 - Конфигурация не содержит моделей
+[INFO] 2025-08-18 09:55:04 - Сервис управления БД инициализирован
+[INFO] 2025-08-18 09:55:04 - Соединение с БД закрыто
+[INFO] 2025-08-18 10:13:08 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 10:13:08 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 10:13:08 - MadTrainerDB - Ошибка инициализации БД: column "interpolation" of relation "metrics" does not exist
+LINE 2: ...                INSERT INTO metrics (name, query, interpolat...
+                                                             ^
+
+[INFO] 2025-08-18 10:13:08 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:20:47 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:20:47 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:20:47 - MadTrainerDB - Ошибка инициализации БД: column "interpolation" of relation "metrics" does not exist
+LINE 2: ...                INSERT INTO metrics (name, query, interpolat...
+                                                             ^
+
+[INFO] 2025-08-18 13:20:47 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:22:03 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:22:03 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:22:03 - MadTrainerDB - Ошибка инициализации БД: column "interpolation" of relation "metrics" does not exist
+LINE 2: ...                INSERT INTO metrics (name, query, interpolat...
+                                                             ^
+
+[INFO] 2025-08-18 13:22:03 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:35:27 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:35:27 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:35:27 - MadTrainerDB - Ошибка инициализации БД: INSERT has more expressions than target columns
+LINE 3: ..._http_requests_total{path="/api/v1/query_range"}', 'linear')
+                                                              ^
+
+[INFO] 2025-08-18 13:35:27 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:35:42 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:35:42 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:35:42 - MadTrainerDB - Ошибка инициализации БД: null value in column "status" of relation "metrics" violates not-null constraint
+DETAIL:  Failing row contains (66, requests_total, null, vm_http_requests_total{path="/api/v1/query_range"}, 60).
+
+[INFO] 2025-08-18 13:35:42 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:36:04 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:36:04 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:36:05 - MadTrainerDB - Ошибка инициализации БД: null value in column "status" of relation "metrics" violates not-null constraint
+DETAIL:  Failing row contains (67, requests_total, null, vm_http_requests_total{path="/api/v1/query_range"}, 60).
+
+[INFO] 2025-08-18 13:36:05 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:38:14 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:38:14 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:38:14 - MadTrainerDB - Ошибка добавления периода исключения: relation "training_exclude_periods" does not exist
+LINE 1: SELECT id FROM training_exclude_periods 
+                       ^
+
+[ERROR] 2025-08-18 13:38:14 - MadTrainerDB - Ошибка добавления периода исключения: current transaction is aborted, commands ignored until end of transaction block
+
+[INFO] 2025-08-18 13:38:14 - MadTrainerDB - Добавлена метрика requests_total (ID: 68)
+[ERROR] 2025-08-18 13:38:14 - MadTrainerDB - Ошибка инициализации БД: current transaction is aborted, commands ignored until end of transaction block
+
+[INFO] 2025-08-18 13:38:14 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:49:44 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:49:44 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:49:44 - MadTrainerDB - Ошибка инициализации БД: 'MadTrainerDatabaseManager' object has no attribute '_insert_exclude_periods'
+[INFO] 2025-08-18 13:49:44 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:49:56 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:49:56 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:49:57 - MadTrainerDB - Ошибка инициализации БД: 'MadTrainerDatabaseManager' object has no attribute '_insert_exclude_periods'
+[INFO] 2025-08-18 13:49:57 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Добавлен аномальный период для метрики 71: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Добавлен аномальный период для метрики 71: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Добавлена метрика requests_total (ID: 71)
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 72)
+[ERROR] 2025-08-18 13:50:19 - MadTrainerDB - Ошибка инициализации БД: column "name" of relation "models" does not exist
+LINE 3:                             name, main_metric_id, version_hi...
+                                    ^
+
+[INFO] 2025-08-18 13:50:19 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 13:59:37 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 13:59:37 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[ERROR] 2025-08-18 13:59:37 - MadTrainerDB - Ошибка инициализации БД: 'MadTrainerDatabaseManager' object has no attribute '_insert_anomaly_periods'
+[INFO] 2025-08-18 13:59:37 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Добавлен аномальный период для метрики 74: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Добавлен аномальный период для метрики 74: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Добавлена метрика requests_total (ID: 74)
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 75)
+[ERROR] 2025-08-18 14:00:14 - MadTrainerDB - Ошибка инициализации БД: invalid input syntax for type integer: "1m"
+LINE 6: ... NULL, '2025-07-18T07:28:03Z', '2025-07-29T08:00:30Z', '1m')
+                                                                  ^
+
+[INFO] 2025-08-18 14:00:14 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Добавлен аномальный период для метрики 76: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Добавлен аномальный период для метрики 76: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Добавлена метрика requests_total (ID: 76)
+[INFO] 2025-08-18 14:17:58 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 77)
+[ERROR] 2025-08-18 14:17:59 - MadTrainerDB - Ошибка инициализации БД: name 'convert_to_seconds' is not defined
+[INFO] 2025-08-18 14:17:59 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Добавлен аномальный период для метрики 78: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Добавлен аномальный период для метрики 78: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Добавлена метрика requests_total (ID: 78)
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 79)
+[ERROR] 2025-08-18 14:19:04 - MadTrainerDB - Ошибка инициализации БД: name 'convert_to_seconds' is not defined
+[INFO] 2025-08-18 14:19:04 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Добавлен аномальный период для метрики 80: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Добавлен аномальный период для метрики 80: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Добавлена метрика requests_total (ID: 80)
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 81)
+[ERROR] 2025-08-18 14:21:07 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 14:21:07 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Добавлен аномальный период для метрики 82: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Добавлен аномальный период для метрики 82: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Добавлена метрика requests_total (ID: 82)
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 83)
+[ERROR] 2025-08-18 14:21:32 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 3 were given
+[INFO] 2025-08-18 14:21:32 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 14:58:24 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 14:58:24 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 14:58:25 - MadTrainerDB - Добавлен аномальный период для метрики 84: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 14:58:25 - MadTrainerDB - Добавлен аномальный период для метрики 84: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 14:58:25 - MadTrainerDB - Добавлена метрика requests_total (ID: 84)
+[INFO] 2025-08-18 14:58:25 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 85)
+[ERROR] 2025-08-18 14:58:25 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 14:58:25 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Добавлен аномальный период для метрики 86: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Добавлен аномальный период для метрики 86: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Добавлена метрика requests_total (ID: 86)
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 87)
+[ERROR] 2025-08-18 15:00:15 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 15:00:15 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 15:00:28 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 15:00:28 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 15:00:28 - MadTrainerDB - Добавлен аномальный период для метрики 88: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 15:00:29 - MadTrainerDB - Добавлен аномальный период для метрики 88: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 15:00:29 - MadTrainerDB - Добавлена метрика requests_total (ID: 88)
+[INFO] 2025-08-18 15:00:29 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 89)
+[ERROR] 2025-08-18 15:00:29 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 15:00:29 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Добавлен аномальный период для метрики 90: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Добавлен аномальный период для метрики 90: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Добавлена метрика requests_total (ID: 90)
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 91)
+[ERROR] 2025-08-18 15:01:31 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 15:01:31 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Добавлен аномальный период для метрики 92: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Добавлен аномальный период для метрики 92: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Добавлена метрика requests_total (ID: 92)
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 93)
+[ERROR] 2025-08-18 15:01:48 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 15:01:48 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-18 15:02:13 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-18 15:02:13 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-18 15:02:13 - MadTrainerDB - Добавлен аномальный период для метрики 94: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-18 15:02:13 - MadTrainerDB - Добавлен аномальный период для метрики 94: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-18 15:02:13 - MadTrainerDB - Добавлена метрика requests_total (ID: 94)
+[INFO] 2025-08-18 15:02:14 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 95)
+[ERROR] 2025-08-18 15:02:14 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-18 15:02:14 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 05:55:52 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 05:55:52 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 05:55:53 - MadTrainerDB - Добавлен аномальный период для метрики 96: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 05:55:53 - MadTrainerDB - Добавлен аномальный период для метрики 96: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 05:55:53 - MadTrainerDB - Добавлена метрика requests_total (ID: 96)
+[INFO] 2025-08-19 05:55:53 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 97)
+[ERROR] 2025-08-19 05:55:53 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-19 05:55:53 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Добавлен аномальный период для метрики 98: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Добавлен аномальный период для метрики 98: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Добавлена метрика requests_total (ID: 98)
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 99)
+[ERROR] 2025-08-19 06:18:02 - MadTrainerDB - Ошибка инициализации БД: convert_to_seconds() takes 1 positional argument but 2 were given
+[INFO] 2025-08-19 06:18:02 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:36:46 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:36:46 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:36:47 - MadTrainerDB - Добавлен аномальный период для метрики 100: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:36:47 - MadTrainerDB - Добавлен аномальный период для метрики 100: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:36:47 - MadTrainerDB - Добавлена метрика requests_total (ID: 100)
+[INFO] 2025-08-19 06:36:47 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 101)
+[ERROR] 2025-08-19 06:36:47 - MadTrainerDB - Ошибка инициализации БД: name 'logger' is not defined
+[INFO] 2025-08-19 06:36:47 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Добавлен аномальный период для метрики 102: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Добавлен аномальный период для метрики 102: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Добавлена метрика requests_total (ID: 102)
+[INFO] 2025-08-19 06:38:43 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 103)
+[ERROR] 2025-08-19 06:38:44 - MadTrainerDB - Ошибка инициализации БД: relation "retrain_params" does not exist
+LINE 2:                             INSERT INTO retrain_params (
+                                                ^
+
+[INFO] 2025-08-19 06:38:44 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Добавлен аномальный период для метрики 104: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Добавлен аномальный период для метрики 104: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Добавлена метрика requests_total (ID: 104)
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 105)
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Добавлена модель requests_total_hard (ID: 66)
+[ERROR] 2025-08-19 06:44:47 - MadTrainerDB - Ошибка инициализации БД: unsupported type for timedelta days component: str
+[INFO] 2025-08-19 06:44:47 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Добавлен аномальный период для метрики 106: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Добавлен аномальный период для метрики 106: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Добавлена метрика requests_total (ID: 106)
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 107)
+[INFO] 2025-08-19 06:53:07 - MadTrainerDB - Добавлена модель requests_total_hard (ID: 67)
+[ERROR] 2025-08-19 06:53:08 - MadTrainerDB - Ошибка инициализации БД: Invalid lookback_period value: 8d
+[INFO] 2025-08-19 06:53:08 - MadTrainerDB - Соединение с БД закрыто
+[INFO] 2025-08-19 06:53:39 - MadTrainerDB - Сервис управления БД MAD Trainer инициализирован
+[INFO] 2025-08-19 06:53:39 - MadTrainerDB - Начало инициализации БД MAD Trainer
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлен аномальный период для метрики 108: 2023-05-10 12:00:00+00:00 - 2023-05-10 14:30:00+00:00 (Технические работы)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлен аномальный период для метрики 108: 2023-05-15 09:00:00+00:00 - 2023-05-15 11:45:00+00:00 (Сбой в системе)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлена метрика requests_total (ID: 108)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлена метрика cpu_utilization (ID: 109)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлена модель requests_total_hard (ID: 68)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Добавлена модель requests_total_easy (ID: 69)
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Инициализация БД MAD Trainer успешно завершена
+[INFO] 2025-08-19 06:53:40 - MadTrainerDB - Соединение с БД закрыто
